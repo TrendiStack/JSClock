@@ -3,10 +3,26 @@ body {
   background-color: black;
 }
 
-.time {
-  text-align: center;
-  margin-top: 50%;
-  font-size: 10vw;
+#time {
+  align-items: center;
   color: white;
+  display: flex;
+  font-size: 7vw;
+  justify-content: center;
   letter-spacing: 3px;
+  margin-top: 17.5vh;
+}
+
+@media screen and (max-width: 1024px) {
+  #time {
+    font-size: 7vw;
+    margin-top: 25rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #time {
+    font-size: 5vw;
+    margin-top: 16rem;
+  }
 }
